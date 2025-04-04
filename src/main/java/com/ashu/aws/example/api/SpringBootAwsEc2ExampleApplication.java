@@ -12,7 +12,7 @@ public class SpringBootAwsEc2ExampleApplication {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Welcome to first aws ec2 deployment";
+		return "Welcome to apring boot app deployment using elastic beanstalk";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAwsEc2ExampleApplication.class, args);
